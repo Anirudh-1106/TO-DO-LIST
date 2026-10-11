@@ -1,0 +1,10 @@
+{
+  "name": "mern-todo-app",
+  "version": "1.0.0",
+  "description": "Full-stack To-Do List application built with MongoDB, Express, React, and Node.js (MERN)",
+  "scripts": {
+    "install-all": "npm install --prefix backend && npm install --prefix frontend",
+    "backend": "npm start --prefix backend",
+    "frontend": "npm run dev --prefix frontend"
+  }
+}
